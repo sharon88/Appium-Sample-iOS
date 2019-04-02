@@ -1,0 +1,9 @@
+.idea/
+target/
+*.iml
+
+
+# Images files
+*.png
+*.html
+.DS_Store

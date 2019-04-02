@@ -1,0 +1,9 @@
+<suite name="iOS Appium test">
+    <test name="recipe test">
+        <classes>
+            <class name="Script.LandTest"/>
+            <class name="Script.AddRecipeTest"/>
+            <class name="Script.DeleteRecipeTest"/>
+        </classes>
+    </test>
+</suite>
