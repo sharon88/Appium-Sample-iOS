@@ -6,4 +6,10 @@
             <class name="Script.DeleteRecipeTest"/>
         </classes>
     </test>
+
+    <test name="Conversions">
+    <classes>
+        <class name="Script.UnitConversionTest"/>
+    </classes>
+    </test>
 </suite>
