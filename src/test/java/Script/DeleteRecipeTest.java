@@ -7,7 +7,7 @@ public class DeleteRecipeTest extends Config{
 
     public DeleteRecipe deleteRecipe;
 
-    @Test
+    @Test (groups = "two")
     public void deleteRecipe(){
         deleteRecipe = new DeleteRecipe(driver);
         deleteRecipe.deleteRecipe();

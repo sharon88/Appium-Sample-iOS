@@ -1,15 +1,29 @@
 <suite name="iOS Appium test">
     <test name="recipe test">
+        <groups>
+            <define name = "All">
+                <include name= "one"/>
+                <include name = "three"/>
+            </define>
+            <run>
+                <include name="All"/>
+            </run>
+        </groups>
         <classes>
-            <class name="Script.LandTest"/>
             <class name="Script.AddRecipeTest"/>
             <class name="Script.DeleteRecipeTest"/>
+            <class name="Script.LandTest"/>
         </classes>
     </test>
 
     <test name="Conversions">
-    <classes>
-        <class name="Script.UnitConversionTest"/>
-    </classes>
+        <groups>
+            <run>
+                <include name="two"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Script.UnitConversionTest"/>
+        </classes>
     </test>
 </suite>

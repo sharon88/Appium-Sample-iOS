@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class UnitConversionTest extends Config {
 
-    @Test
+    @Test (groups = {"three", "two"})
     public void navaigateToTempConversion() {
         UnitConversion conversion = new UnitConversion(driver);
         conversion.unitConversionTab.click();

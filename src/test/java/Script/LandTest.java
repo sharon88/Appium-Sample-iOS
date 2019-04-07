@@ -9,7 +9,7 @@ public class LandTest extends Config {
 
     public Common common;
 
-    @Test
+    @Test (groups = {"three"})
     public void FirstTest() {
         Landing landing = new Landing(driver);
         landing.chocolateCake.click();

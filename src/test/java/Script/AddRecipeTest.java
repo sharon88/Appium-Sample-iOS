@@ -13,7 +13,7 @@ public class AddRecipeTest extends Config {
 
     private static String recipeName = "recipe";
 
-    @Test
+    @Test (groups = {"one"})
     public void createRecipe(){
         addRecipe = new AddRecipe (driver);
         addRecipe.addRecipe.click();
